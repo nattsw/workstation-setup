@@ -10,15 +10,8 @@ echo "sudo scutil --set LocalHostName newname"
 echo "sudo scutil --set HostName newname"
 
 echo
-echo "You can use 'git pair' (enabled) 'git duet' (enabled) 'git author' (enabled)"
-echo "or 'git with' aka git-together (installed but not enabled)"
-echo ""
-echo "To enable git together:"
-echo "echo 'alias git=git-together' >> ~/.bash_profile"
-echo "and then follow the configuration instructions at https://github.com/kejadlen/git-together"
-echo ""
-echo "To use git-author:"
-echo "echo 'export GIT_TOGETHER_NO_SIGNOFF=1' >> ~/.bash_profile"
+echo "Import iTerm2 keymaps manually"
+echo "iTerm2 -> Cmd+, -> Profiles -> Keys... -> Import -> './files/nat.itermkeymap"
 
 echo
 echo "After checking the above output for any problems, start a new iTerm session to make use of all the installed tools."
