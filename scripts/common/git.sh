@@ -5,6 +5,7 @@ brew tap git-duet/tap
 brew cask install gitup
 brew install git-duet
 brew install vim
+brew install gnupg
 
 echo "Setting global Git configurations"
 git config --global core.editor /usr/local/bin/vim
