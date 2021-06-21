@@ -23,6 +23,7 @@ brew install --cask calibre
 brew install --cask vlc
 brew tap homebrew/cask-drivers
 brew install --cask synologyassistant
+brew install --cask obsidian
 
 # Terminals
 
