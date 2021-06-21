@@ -2,7 +2,7 @@ echo
 echo "Installing Git and associated tools"
 brew install git
 brew tap git-duet/tap
-brew cask install gitup
+brew install --cask gitup
 brew install git-duet
 brew install vim
 brew install gnupg

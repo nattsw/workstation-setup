@@ -5,45 +5,46 @@ set +e
 echo
 echo "Installing applications"
 
-brew cask install steam
-brew cask install spotify
+brew install --cask steam
+brew install --cask spotify
 
 # Utilities
 
-brew cask install flycut
-brew cask install divvy
-brew cask install alfred
-brew cask install 1password
-brew cask install dash
-brew cask install postman
-brew cask install imageoptim
-brew cask install nordvpn
-brew cask install the-unarchiver
-brew cask install calibre
+brew install --cask flycut
+brew install --cask divvy
+brew install --cask alfred
+brew install --cask 1password
+brew install --cask dash
+brew install --cask postman
+brew install --cask imageoptim
+brew install --cask nordvpn
+brew install --cask the-unarchiver
+brew install --cask calibre
+brew install --cask vlc
 brew tap homebrew/cask-drivers
-brew cask install synologyassistant
+brew install --cask synologyassistant
 
 # Terminals
 
-brew cask install iterm2
+brew install --cask iterm2
 
 # Browsers
 
-brew cask install google-chrome
-brew cask install firefox
+brew install --cask google-chrome
+brew install --cask firefox
 
 # Communication
 
-brew cask install slack
-brew cask install telegram
-brew cask install zoomus
+brew install --cask slack
+brew install --cask telegram
+brew install --cask zoomus
 
 # Text Editors
 
-brew cask install sublime-text
-brew cask install jetbrains-toolbox --force # guard against pre-installed jetbrains-toolbox
-brew cask install visual-studio-code
+brew install --cask sublime-text
+brew install --cask jetbrains-toolbox --force # guard against pre-installed jetbrains-toolbox
+brew install --cask visual-studio-code
 brew tap homebrew/cask-fonts
-brew cask install font-jetbrains-mono
+brew install --cask font-jetbrains-mono
 
 set -e
